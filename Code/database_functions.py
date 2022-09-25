@@ -130,4 +130,3 @@ def query_col(db, col):
     rows = cur.fetchall()
     return (rows)
     
-print("\nPROME: wersja alfa")

@@ -22,4 +22,4 @@ from sqlite3 import Error
 
 from configparser import ConfigParser 
 
-setup(console=['aplikacja.py'])
+setup(console=['main.py'])

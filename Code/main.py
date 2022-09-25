@@ -36,6 +36,7 @@ else:
 # Funkcje sprawdzające bazę danych i inicjacja takowej jak jest zapisana.
 
 is_db_selected = False
+print("\nPROME cwd: {}".format(os.getcwd()))
 
 def check_db():
     try:
