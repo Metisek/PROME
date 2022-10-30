@@ -2,7 +2,7 @@
 Device used to randomize numbers for students' workplacs.
 
 ## Overview
-[Photo](Photos/Overview1.png)
+![Photo](Photos/Overview1.png)
 
 # Hardware setup
 ## Devices list
