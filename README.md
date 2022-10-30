@@ -1,7 +1,8 @@
 # Prome
-Device usedto randomize numbers for students' workplacs.
+Device used to randomize numbers for students' workplacs.
 
 ## Overview
+[Photo](https://drive.google.com/file/d/14vRNC4mRAPnhmE7-tO2betEj_9zoQtJf/view?usp=sharing)
 
 # Hardware setup
 ## Devices list
