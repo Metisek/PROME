@@ -3,6 +3,11 @@ Device usedto randomize numbers for students' workplacs.
 
 ## Overview
 
+# Hardware setup
+## Devices list
+* Open File
+* Do sth
+  - Do sth
 
 ## Required packages
 Excluding sqlite3 dll (bundled with source code) you should install the following packages (tested on Python 3.9.10):
@@ -25,8 +30,3 @@ After installing packages you can start application as long as working directory
 PROME cwd: C:\Users\Guest\GIT\PROME\Code
 
 ```
-
-## How to build application
-* Open File
-* Do sth
-  - Do sth
