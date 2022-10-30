@@ -1,10 +1,13 @@
 # Prome
-Device used to randomize numbers for students' workplacs.
+Device used to randomize numbers for students' workplacs. This README combines overview of this device with instructions how to setup it by yourself.
 
 ## Overview
-![Photo](Photos/Overview1.png)
+![Device photo](Photos/Overview1.png)
 
 # Hardware setup
+
+To run 
+
 ## Devices list
 
 Mandatory:
@@ -33,7 +36,32 @@ Optional:
 * 2x CRIMP 5-pin cable
 * 1x CRIMP 2-pin cable
 
-## Required packages
+# Software setup
+
+To control device, you have to:
+* Setup MOXA NE4110S device with proper IP address
+* Configure proper COM port(s)
+* Compile python app OR use already compiled one
+
+## MOXA NE4110S IP configuration
+In order to change the IP address of the MOXA NE4110S device, you need to write down its MAC address and connect it to the computer / switch.
+
+After these steps, you should:
+
+1. In CMD type *arp –s <IP address> 00-90-E8-tt-tt-tt* (where t are the characters of the MAC address).
+2. In CMD type *telnet <IP address> 6000* or similarly try to connect to PuTTY. It should drop the connection.
+3. Reset the device.
+
+From now on, MOXA will have an IP entered by us. It can be configured via telnet or a browser.
+
+## COM port setup
+
+To properly use device you have to install [NPort](https://www.moxa.com/en/products/industrial-edge-connectivity/serial-device-servers/serial-embedded-modules/ne-4100-series#resources). 
+
+## Installing PROME software (optional)
+
+Currently only polish language is supported, it is possible to implement other languages if necessary.
+
 Excluding sqlite3 dll (bundled with source code) you should install the following packages (tested on Python 3.9.10):
 * pysimplegui
 * tk
